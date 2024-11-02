@@ -1,0 +1,35 @@
+.Custome__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+    @media (max-width: 880px) {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+}
+.Custome__box{
+    
+    img{
+        max-width: 20px;
+        height: 20px;
+        width: 100%;
+    }
+
+        @media (max-width: 880px) {
+
+            .arrow-1{
+                display: none;
+            }
+
+            .arrow-2{
+            display: block;
+            }
+        }
+
+}
+
+.arrow-2{
+    display: none;
+}

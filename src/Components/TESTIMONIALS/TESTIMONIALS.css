@@ -1,0 +1,51 @@
+.Test__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    h1{
+        font-size: 48px;
+        font-weight: 700;
+        max-width: 430px;
+    }
+}
+
+.Test__cards{
+display: flex;
+
+gap: 20px;
+
+@media (max-width: 880px) {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+}
+
+.card{
+    max-width: 345px;
+    margin: 40px 0;
+    padding: 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEDCDB80;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+  gap: 28px;
+    p{
+        max-width: 280px;
+
+        
+    }
+}
